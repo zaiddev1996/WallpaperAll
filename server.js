@@ -20,7 +20,7 @@ var routes = require("./api/routes/wallpaperAppRoutes"); //importing route
 routes(app); //register the route
 
 // app.listen(port);
-app.listen(1337, "0.0.0.0", function () {
+app.listen(port, "0.0.0.0", function () {
   console.log(`'Server listening at: ${port}`);
 });
 
