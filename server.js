@@ -19,9 +19,9 @@ app.use(bodyParser.json());
 var routes = require("./api/routes/wallpaperAppRoutes"); //importing route
 routes(app); //register the route
 
-// app.listen(port);
-app.listen(port, "127.0.0.34", function () {
-  console.log(`'Server listening at: ${port}`);
-});
+app.listen(port);
+// app.listen(1337, function () {
+//   console.log(`'Server listening at: ${appInstance.address().port}`);
+// });
 
-// console.log("todo list RESTful API server started on: " + port);
+console.log("todo list RESTful API server started on: " + port);
