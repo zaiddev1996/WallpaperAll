@@ -97,8 +97,8 @@ exports.delete_a_task = function(req, res) {
 
 exports.generate_signed_url = function(req, res) {
 	AWS.config = new AWS.Config({
-		accessKeyId: 'AKIAXLHGYIK4CMYUTDGQ',
-		secretAccessKey: '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',
+		accessKeyId: '****',
+		secretAccessKey: '*****',
 		region: 'us-west-1',
 		signatureVersion: 'v4'
 	});
